@@ -1,0 +1,205 @@
+/* Estilos goblales */
+body {
+  -webkit-font-smoothing: antialiased;
+  color: #f4f4f4;
+  font-family: "Open Sans", OpenSans, sans-serif;
+  margin: 0;
+  
+}
+
+h1, h2, h3{
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-weight: 100;
+}
+
+
+a {
+  text-decoration: none; 
+  color: white; 
+}
+
+.lnk-red {
+  color: rgb(208, 74, 73);
+}
+/* Ajusta la imagen a su contenedor */
+img {
+  width: 100%;
+  height: auto; /* mantiene la relación de aspecto de la imagen */
+}
+.btn {
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 5px 20px;  
+  margin-top: 15px;
+  display: inline-block;
+}
+  
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 10px 20px;
+  
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.top-left {
+ display: inline-block;
+}
+/* Inicio seccion Header */
+.header{
+  
+  color: white;
+  background-color: rgb(32, 101, 136);
+  background-image: url(./images/city-scape.svg);
+  background-size: 100% 100%; /* cubre todo el ancho y ajusta el alto automaticamente */
+  height: 350px;
+}
+
+.header-top div{
+  /*float: left; /*todos los div de header-top se alinean a la izquierda */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header-logo {
+  width: 70px;
+}
+.header-search {
+  width: 80%;
+
+}
+.header-access {
+  width: 125px;
+}
+
+.header-access-img {
+  width : 50px;
+}
+.header-search input {
+  background-color: rgb(31, 82, 111);
+  width: 97%;
+  border: 1px solid rgb(32, 101, 136);
+  padding: 10px;
+  color: white
+}
+.header-search .search{
+  width: 29px;
+  padding: 10px 8px;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgb(32, 101, 136);
+  margin-left: -5px;
+  cursor: pointer;
+}
+.header-content {
+  width: 30%;
+  float: left;
+  margin-left: 20%;
+  margin-top: 15px;
+  
+}
+.btn-header {
+  background-color: rgb(240, 146, 51);
+  border: 1px solid rgb(240, 146, 51);
+}
+/* Inicio estilos section collaboration */
+.section-collaboration {
+  background-color: rgb(39, 53, 71);
+  padding: 80px 0;
+}
+.section-collaboration-container {
+  color: white; 
+  background-color: rgb(39, 53, 71);
+  width: 60%;
+  margin: 0 auto;
+}
+
+.btn-collaboration {
+  background-color: rgb(203, 56, 55);
+  border: 1px solid rgb(203, 56, 55);
+}
+.section-collaboration-img {
+  width: 50%;
+  float: left;
+}
+.section-collaboration-content {
+  width: 45%;
+  display: inline-block;
+  margin-left: 5%;
+}
+.section-collaboration-content ul li {
+  font-size: 14px;
+  line-height: 1.8em;
+}
+/* Inicio estilos section npm */
+.section-npm {
+  background-image: url(./images/forklift.svg);
+  background-size: cover;
+  height: 400px;
+
+}
+.section-npm-content {
+  float: left;
+  width: 30%;
+  margin-left: 20%;
+  margin-top: 40px;
+}
+.btn-npm {
+  background-color: rgb(49, 68, 88);
+  border: 1px solid rgb(49, 68, 88);
+}
+#building .container {
+  margin: 0 auto;
+  margin-top: 50px;
+
+  /* width: 1200px; */
+  
+
+  text-align: center;
+}
+
+#building h2,
+#building h3 {
+  color: rgb(83, 88, 98);
+}
+#building img {
+  width: 50%
+}
+#building p {
+  font-size: 14px;
+  line-height: 1.8em;
+  color: rgb(135, 145, 156);
+}
+.col {
+  float: left;
+  padding: 5px 10px;
+}
+.col-3 {
+  width: 25%;
+}
+.col-middle {
+  margin: 0 5%;
+}
+.clearfix {
+  clear: both;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
